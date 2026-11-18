@@ -149,15 +149,15 @@ Los 8 productos tienen un único precio unitario coherente, y todos los controle
 
 **Antes** — nombres inconsistentes (`" MOUSE ÓPTICO"`, `"accesorios"`), celdas vacías, una cantidad negativa:
 
-![Datos originales](img/01_before_datos_originales.png)
+![Datos originales](img/01.before-datos_originales.png)
 
 **Después** — valores consistentes, fechas reales y una columna de revisión que explica cada celda vacía:
 
-![Datos limpios](img/02_after_datos_limpios.png)
+![Datos limpios](img/02.after-datos_limpios.png)
 
 **Registro de cambios** — cada problema documentado con criterio, casos y estado:
 
-![Registro de cambios](img/03_registro_de_cambios.png)
+![Registro de cambios](img/03.registro_de_cambios.png)
 
 ### Archivos
 
