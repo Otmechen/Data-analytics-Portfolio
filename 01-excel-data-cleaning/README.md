@@ -77,7 +77,7 @@ All 8 products have a single, consistent unit price, and every numeric control i
 | File | Description |
 |---|---|
 | [`data/Proyecto_1_Limpieza_Datos_Excel.xlsx`](data/Proyecto_1_Limpieza_Datos_Excel.xlsx) | Final workbook (see sheets below) |
-| [`data/datos_limpios.csv`](data/datos_limpios.csv) | The clean table as CSV (UTF-8), previewable on GitHub |
+| [`data/datos_limpios.csv`](data/datos_limpios.csv) | The clean table as CSV (UTF-8, comma-separated, dates as `dd/mm/yyyy`), previewable on GitHub |
 
 Workbook sheets: `LEEME` (brief), `Registro_de_cambios` (change log), `Datos_originales` (untouched), `Datos_limpios` (clean data), `Aux_diagnostico` (working tables and lookup tables), `Validaciones` (validation controls), `Antes_Despues` (before/after summary).
 
@@ -164,7 +164,7 @@ Los 8 productos tienen un único precio unitario coherente, y todos los controle
 | Archivo | Descripción |
 |---|---|
 | [`data/Proyecto_1_Limpieza_Datos_Excel.xlsx`](data/Proyecto_1_Limpieza_Datos_Excel.xlsx) | Libro final (hojas abajo) |
-| [`data/datos_limpios.csv`](data/datos_limpios.csv) | La tabla limpia en CSV (UTF-8), con vista previa en GitHub |
+| [`data/datos_limpios.csv`](data/datos_limpios.csv) | La tabla limpia en CSV (UTF-8, separado por comas, fechas `dd/mm/aaaa`), con vista previa en GitHub |
 
 Hojas del libro: `LEEME` (consigna), `Registro_de_cambios`, `Datos_originales` (sin tocar), `Datos_limpios`, `Aux_diagnostico` (tablas de trabajo y de equivalencias), `Validaciones` y `Antes_Despues` (resumen de calidad).
 

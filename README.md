@@ -67,7 +67,7 @@ The scope of the planned projects may be adjusted as I learn.
 ### Repository structure
 
 ```
-Data-analyst/
+Projects---Data-Analysist/
 ├── README.md                    ← this file
 ├── 01-excel-data-cleaning/      ← Project 1 (done)
 │   ├── README.md
@@ -146,7 +146,7 @@ El alcance de los proyectos planificados puede ajustarse a medida que aprenda.
 ### Estructura del repositorio
 
 ```
-Data-analyst/
+Projects---Data-Analysist/
 ├── README.md                    ← este archivo
 ├── 01-excel-data-cleaning/      ← Proyecto 1 (terminado)
 │   ├── README.md

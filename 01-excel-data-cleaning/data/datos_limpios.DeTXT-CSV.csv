@@ -1,0 +1,152 @@
+ID_Venta;Fecha;Producto;Categoría;Cantidad;Precio_Unitario;Sucursal;Vendedor;Observaciones_revision
+V0001;6/2/2026;Disco SSD 480GB;Informática;3;58000;Burzaco;Ana;
+V0002;16/4/2026;Mouse óptico;Accesorios;3;9200;Adrogué;Carla;
+V0003;24/1/2026;Webcam HD;Informática;4;38500;Burzaco;Bruno;
+V0004;4/4/2026;Disco SSD 480GB;Informática;1;58000;Centro;Elena;
+V0005;5/4/2026;Parlante Bluetooth;Audio;4;42000;Centro;Diego;
+V0006;19/4/2026;Webcam HD;Informática;1;38500;Lomas;Carla;
+V0007;1/5/2026;Monitor 24 pulgadas;Informática;5;145000;Adrogué;Elena;
+V0008;19/1/2026;Auriculares;Audio;5;27500;Centro;Diego;
+V0009;10/4/2026;Cable USB-C;Accesorios;;6500;Centro;Bruno;Cantidad vacía
+V0010;3/2/2026;Disco SSD 480GB;Informática;2;58000;Centro;Bruno;
+V0011;10/4/2026;Teclado inalámbrico;Accesorios;4;18500;Burzaco;Carla;
+V0012;9/2/2026;Parlante Bluetooth;Audio;1;42000;Lomas;Diego;
+V0013;16/2/2026;Webcam HD;Informática;1;38500;Burzaco;Carla;
+V0014;15/2/2026;Monitor 24 pulgadas;Informática;4;145000;Centro;Elena;
+V0015;27/1/2026;Auriculares;Audio;2;27500;Lomas;Elena;
+V0016;13/2/2026;Mouse óptico;Accesorios;3;9200;Centro;Diego;
+V0017;8/2/2026;Webcam HD;Informática;1;38500;Adrogué;Elena;
+V0018;28/2/2026;Mouse óptico;Accesorios;3;9200;Lomas;Carla;
+V0019;3/1/2026;Mouse óptico;Accesorios;5;9200;Adrogué;Bruno;
+V0020;11/3/2026;Disco SSD 480GB;Informática;5;58000;Centro;Ana;
+V0021;13/4/2026;Teclado inalámbrico;Accesorios;3;18500;Burzaco;Carla;
+V0022;13/3/2026;Mouse óptico;Accesorios;1;9200;Lomas;Diego;
+V0023;24/1/2026;Disco SSD 480GB;Informática;1;58000;Adrogué;Ana;
+V0024;18/2/2026;Auriculares;Audio;2;27500;Burzaco;Carla;
+V0025;14/2/2026;Parlante Bluetooth;Audio;1;42000;Centro;Bruno;
+V0026;;Mouse óptico;Accesorios;1;9200;Burzaco;Bruno;Fecha imposible: 31/02/2026
+V0027;16/4/2026;Disco SSD 480GB;Informática;5;58000;Lomas;Ana;
+V0028;17/2/2026;Auriculares;Audio;5;27500;Adrogué;Ana;
+V0029;9/2/2026;Disco SSD 480GB;Informática;2;58000;Lomas;Bruno;
+V0030;27/3/2026;Parlante Bluetooth;Audio;3;42000;Burzaco;Elena;
+V0031;14/3/2026;Monitor 24 pulgadas;Informática;3;145000;Centro;Bruno;
+V0032;19/3/2026;Mouse óptico;Accesorios;4;9200;Centro;Bruno;
+V0033;9/2/2026;Parlante Bluetooth;Audio;3;42000;Centro;Bruno;
+V0034;24/4/2026;Mouse óptico;Accesorios;4;9200;Centro;Carla;
+V0035;7/4/2026;Auriculares;Audio;2;27500;Centro;Bruno;
+V0036;16/3/2026;Disco SSD 480GB;Informática;1;58000;Lomas;Elena;
+V0037;5/2/2026;Teclado inalámbrico;Accesorios;;18500;Burzaco;Ana;Cantidad vacía
+V0038;12/2/2026;Disco SSD 480GB;Informática;3;58000;Burzaco;Diego;
+V0039;2/1/2026;Auriculares;Audio;2;27500;Adrogué;Bruno;
+V0040;27/4/2026;Auriculares;Audio;3;27500;;Diego;Sucursal no informada
+V0041;1/2/2026;Webcam HD;Informática;1;38500;Centro;Elena;"ID duplicado con fecha distinta (01/02/2026 vs 05/04/2026); confirmar cuál es la correcta"
+V0042;7/1/2026;Teclado inalámbrico;Accesorios;2;18500;Lomas;Elena;
+V0043;14/1/2026;Mouse óptico;Accesorios;4;9200;Burzaco;Carla;
+V0044;2/4/2026;Disco SSD 480GB;Informática;3;;Lomas;Carla;"Precio vacío. Probable $58.000 (único precio registrado del producto); confirmar"
+V0045;14/2/2026;Mouse óptico;Accesorios;4;9200;Adrogué;Diego;
+V0046;25/1/2026;Cable USB-C;Accesorios;4;6500;Burzaco;Elena;
+V0047;4/4/2026;Auriculares;Audio;2;27500;Adrogué;Ana;
+V0048;24/3/2026;Cable USB-C;Accesorios;3;6500;Burzaco;Diego;
+V0049;23/2/2026;Disco SSD 480GB;Informática;3;58000;Adrogué;Ana;
+V0050;9/3/2026;Monitor 24 pulgadas;Informática;1;145000;Lomas;Elena;
+V0051;27/2/2026;Teclado inalámbrico;Accesorios;1;18500;Burzaco;Carla;
+V0052;20/1/2026;Mouse óptico;Accesorios;1;9200;Burzaco;Carla;
+V0053;30/4/2026;Parlante Bluetooth;Audio;5;42000;Adrogué;Carla;
+V0054;24/3/2026;Teclado inalámbrico;Accesorios;2;18500;Centro;Diego;
+V0055;10/4/2026;Mouse óptico;Accesorios;1;9200;Burzaco;Elena;
+V0056;15/1/2026;Webcam HD;Informática;2;38500;Centro;Bruno;
+V0057;2/2/2026;Teclado inalámbrico;Accesorios;5;18500;Lomas;;Vendedor no informado
+V0058;22/3/2026;Teclado inalámbrico;Accesorios;4;18500;Centro;Elena;
+V0059;6/2/2026;Teclado inalámbrico;Accesorios;3;18500;Centro;Ana;
+V0060;12/4/2026;Monitor 24 pulgadas;Informática;5;145000;Burzaco;Bruno;
+V0061;6/2/2026;Teclado inalámbrico;Accesorios;5;18500;Lomas;Ana;
+V0062;16/1/2026;Webcam HD;Informática;5;38500;Lomas;Bruno;
+V0063;13/2/2026;Webcam HD;Informática;;38500;Adrogué;Bruno;"Cantidad negativa (-2): posible devolución o error de carga; confirmar"
+V0064;25/1/2026;Webcam HD;Informática;3;38500;Lomas;Elena;
+V0065;18/1/2026;Disco SSD 480GB;Informática;5;58000;Centro;Diego;
+V0066;19/4/2026;Parlante Bluetooth;Audio;4;42000;Lomas;Carla;
+V0067;21/4/2026;Parlante Bluetooth;Audio;4;42000;Burzaco;Ana;
+V0068;27/4/2026;Mouse óptico;Accesorios;2;9200;Lomas;Bruno;
+V0069;4/3/2026;Monitor 24 pulgadas;Informática;3;145000;Lomas;Carla;
+V0070;12/2/2026;Monitor 24 pulgadas;Informática;3;145000;Centro;Ana;
+V0071;22/1/2026;Mouse óptico;Accesorios;4;9200;Lomas;Ana;
+V0072;24/3/2026;Teclado inalámbrico;Accesorios;1;18500;Burzaco;Carla;
+V0073;9/2/2026;Disco SSD 480GB;Informática;1;58000;Lomas;Ana;
+V0074;30/3/2026;Disco SSD 480GB;Informática;5;58000;Lomas;Elena;
+V0075;19/2/2026;Parlante Bluetooth;Audio;5;42000;Adrogué;Carla;
+V0076;4/4/2026;Auriculares;Audio;1;27500;Adrogué;Ana;
+V0077;24/2/2026;Disco SSD 480GB;Informática;1;58000;Burzaco;Elena;
+V0078;29/1/2026;Parlante Bluetooth;Audio;1;42000;Lomas;Elena;
+V0079;13/3/2026;Teclado inalámbrico;Accesorios;5;18500;Adrogué;Bruno;
+V0080;6/3/2026;Monitor 24 pulgadas;Informática;2;145000;Lomas;Bruno;
+V0081;12/3/2026;Teclado inalámbrico;Accesorios;4;18500;Lomas;Diego;
+V0082;21/3/2026;Auriculares;Audio;1;27500;Lomas;Bruno;
+V0083;3/4/2026;Auriculares;Audio;4;27500;Adrogué;Bruno;
+V0084;21/3/2026;Cable USB-C;Accesorios;4;6500;Lomas;Ana;
+V0085;26/2/2026;Disco SSD 480GB;Informática;4;58000;Burzaco;Ana;
+V0086;5/4/2026;Cable USB-C;Accesorios;3;6500;Burzaco;Ana;
+V0087;16/2/2026;Mouse óptico;Accesorios;1;9200;Lomas;Diego;
+V0088;29/1/2026;Disco SSD 480GB;Informática;4;58000;Lomas;Bruno;
+V0089;1/4/2026;Cable USB-C;Accesorios;1;6500;Lomas;Carla;
+V0090;1/4/2026;Parlante Bluetooth;Audio;4;42000;Centro;Elena;
+V0091;;Teclado inalámbrico;Accesorios;5;18500;Lomas;Ana;"Fecha no informada: ""sin fecha"""
+V0092;9/4/2026;Disco SSD 480GB;Informática;1;58000;Adrogué;Bruno;
+V0093;17/3/2026;Monitor 24 pulgadas;Informática;3;145000;Lomas;Elena;
+V0094;29/3/2026;Disco SSD 480GB;Informática;4;58000;Lomas;Diego;
+V0095;23/3/2026;Mouse óptico;Accesorios;4;9200;Burzaco;Diego;
+V0096;28/1/2026;Teclado inalámbrico;Accesorios;4;18500;Centro;Elena;
+V0097;11/2/2026;Parlante Bluetooth;Audio;5;42000;Centro;Elena;
+V0098;2/4/2026;Cable USB-C;Accesorios;5;6500;Adrogué;Elena;
+V0099;1/2/2026;Disco SSD 480GB;Informática;3;58000;;Ana;Sucursal no informada
+V0100;23/4/2026;Webcam HD;Informática;2;38500;Burzaco;Diego;
+V0101;3/3/2026;Monitor 24 pulgadas;Informática;1;145000;Centro;Bruno;
+V0102;4/3/2026;Teclado inalámbrico;Accesorios;3;18500;Centro;Ana;
+V0103;16/1/2026;Disco SSD 480GB;Informática;2;58000;Lomas;Diego;
+V0104;1/2/2026;Teclado inalámbrico;Accesorios;1;18500;Lomas;Carla;
+V0105;2/3/2026;Parlante Bluetooth;Audio;5;42000;Lomas;Elena;
+V0106;20/2/2026;Teclado inalámbrico;Accesorios;5;18500;Centro;Carla;
+V0107;1/3/2026;Parlante Bluetooth;Audio;1;42000;Adrogué;Bruno;
+V0108;15/1/2026;Auriculares;Audio;3;27500;Lomas;Ana;
+V0109;16/1/2026;Webcam HD;Informática;1;38500;Lomas;Diego;
+V0110;13/4/2026;Disco SSD 480GB;Informática;2;58000;Burzaco;Bruno;
+V0111;14/3/2026;Mouse óptico;Accesorios;5;9200;Burzaco;Ana;
+V0112;29/1/2026;Monitor 24 pulgadas;Informática;;145000;Adrogué;Elena;Cantidad vacía
+V0113;13/2/2026;Monitor 24 pulgadas;Informática;2;145000;Centro;Ana;
+V0114;19/1/2026;Mouse óptico;Accesorios;3;9200;Centro;Ana;
+V0115;6/3/2026;Monitor 24 pulgadas;Informática;2;145000;Burzaco;Carla;
+V0116;10/1/2026;Teclado inalámbrico;Accesorios;3;18500;Burzaco;Ana;
+V0117;7/4/2026;Teclado inalámbrico;Accesorios;5;18500;Burzaco;Bruno;
+V0118;4/1/2026;Teclado inalámbrico;Accesorios;3;;Centro;Ana;"Precio vacío. Probable $18.500 (único precio registrado del producto); confirmar"
+V0119;13/4/2026;Webcam HD;Informática;3;38500;Lomas;Diego;
+V0120;10/4/2026;Monitor 24 pulgadas;Informática;4;145000;Adrogué;Diego;
+V0121;28/4/2026;Parlante Bluetooth;Audio;3;42000;Lomas;;Vendedor no informado
+V0122;20/3/2026;Auriculares;Audio;4;27500;Centro;Ana;
+V0123;31/1/2026;Disco SSD 480GB;Informática;3;58000;Burzaco;Bruno;
+V0124;31/3/2026;Mouse óptico;Accesorios;4;9200;Burzaco;Ana;
+V0125;28/4/2026;Webcam HD;Informática;3;38500;Centro;Diego;
+V0126;9/3/2026;Cable USB-C;Accesorios;1;6500;Lomas;Bruno;
+V0127;24/3/2026;Disco SSD 480GB;Informática;2;58000;Adrogué;Bruno;
+V0128;18/4/2026;Disco SSD 480GB;Informática;2;58000;Burzaco;Elena;
+V0129;15/4/2026;Monitor 24 pulgadas;Informática;2;145000;Lomas;Bruno;
+V0130;16/1/2026;Monitor 24 pulgadas;Informática;5;145000;Lomas;Elena;
+V0131;21/1/2026;Auriculares;Audio;4;27500;Adrogué;Diego;
+V0132;2/1/2026;Monitor 24 pulgadas;Informática;1;145000;Centro;Elena;
+V0133;21/1/2026;Cable USB-C;Accesorios;1;6500;Lomas;Diego;
+V0134;8/3/2026;Auriculares;Audio;3;27500;Burzaco;Carla;
+V0135;15/1/2026;Cable USB-C;Accesorios;3;6500;Lomas;Carla;
+V0136;1/3/2026;Auriculares;Audio;5;27500;Lomas;Ana;
+V0137;31/1/2026;Monitor 24 pulgadas;Informática;4;145000;Lomas;Ana;
+V0138;3/3/2026;Teclado inalámbrico;Accesorios;2;18500;Lomas;Elena;
+V0139;1/1/2026;Parlante Bluetooth;Audio;1;42000;Centro;Elena;
+V0140;16/3/2026;Monitor 24 pulgadas;Informática;4;145000;Burzaco;Carla;
+V0141;29/1/2026;Auriculares;Audio;5;27500;Burzaco;Elena;
+V0142;13/1/2026;Monitor 24 pulgadas;Informática;2;145000;Burzaco;Elena;
+V0143;13/2/2026;Mouse óptico;Accesorios;1;9200;Lomas;Elena;
+V0144;1/3/2026;Mouse óptico;Accesorios;4;9200;Adrogué;Elena;
+V0145;20/1/2026;Auriculares;Audio;2;27500;Centro;Elena;
+V0146;6/4/2026;Parlante Bluetooth;Audio;4;42000;Lomas;Bruno;
+V0147;27/1/2026;Auriculares;Audio;5;27500;Burzaco;Diego;
+V0148;31/3/2026;Auriculares;Audio;1;27500;Adrogué;Elena;
+V0149;24/2/2026;Auriculares;Audio;3;27500;Centro;Bruno;
+V0150;26/4/2026;Disco SSD 480GB;Informática;1;58000;Lomas;Elena;
+V0041;5/4/2026;Webcam HD;Informática;1;38500;Centro;Elena;"ID duplicado con fecha distinta (01/02/2026 vs 05/04/2026); confirmar cuál es la correcta"
