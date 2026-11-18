@@ -62,11 +62,11 @@ All 8 products have a single, consistent unit price, and every numeric control i
 
 **Before** — inconsistent names (`" MOUSE ÓPTICO"`, `"accesorios"`), blank cells, a negative quantity:
 
-![Original data](img/01_before_datos_originales.png)
+![Original data](img/01_before-datos_originales.png)
 
 **After** — consistent values, real dates, and a review column explaining every empty cell:
 
-![Clean data](img/02_after_datos_limpios.png)
+![Clean data](img/02_after-datos_limpios.png)
 
 **Change log** — every problem documented with criterion, cases and status:
 
