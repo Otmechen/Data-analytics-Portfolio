@@ -62,15 +62,15 @@ All 8 products have a single, consistent unit price, and every numeric control i
 
 **Before** — inconsistent names (`" MOUSE ÓPTICO"`, `"accesorios"`), blank cells, a negative quantity:
 
-![Original data](img/01_before_datos_originales.png)
+![Original data](img/01.before-datos_originales.png)
 
 **After** — consistent values, real dates, and a review column explaining every empty cell:
 
-![Clean data](img/02_after_datos_limpios.png)
+![Clean data](img/02.after-datos_limpios.png)
 
 **Change log** — every problem documented with criterion, cases and status:
 
-![Change log](img/03_registro_de_cambios.png)
+![Change log](img/03.registro_de_cambios.png)
 
 ### Files
 
@@ -149,15 +149,15 @@ Los 8 productos tienen un único precio unitario coherente, y todos los controle
 
 **Antes** — nombres inconsistentes (`" MOUSE ÓPTICO"`, `"accesorios"`), celdas vacías, una cantidad negativa:
 
-![Datos originales](img/01_before_datos_originales.png)
+![Datos originales](img/01.before-datos_originales.png)
 
 **Después** — valores consistentes, fechas reales y una columna de revisión que explica cada celda vacía:
 
-![Datos limpios](img/02_after_datos_limpios.png)
+![Datos limpios](img/02.after-datos_limpios.png)
 
 **Registro de cambios** — cada problema documentado con criterio, casos y estado:
 
-![Registro de cambios](img/03_registro_de_cambios.png)
+![Registro de cambios](img/03.registro_de_cambios.png)
 
 ### Archivos
 
