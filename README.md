@@ -19,7 +19,7 @@ The projects build on each other. Project 1 prepares a reliable dataset, and the
 | # | Project | Level | Main tools | Status |
 |---|---|---|---|---|
 | 1 | [Sales Data Cleaning in Excel](01-excel-data-cleaning/) | Beginner | Excel | ✅ Done |
-| 2 | Sales Analysis and Dashboard in Excel | Beginner–Intermediate | Excel (PivotTables, charts) | 🔜 Planned |
+| 2 | [Sales Analysis and Dashboard in Excel](02-excel-analysis-dashboard/) | Beginner–Intermediate | Excel (PivotTables, charts, slicers) | ✅ Done |
 | 3 | Sales Analysis with SQL | Intermediate | SQL | 🔜 Planned |
 | 4 | Exploratory Data Analysis with Python | Intermediate–Advanced | Python (pandas, visualization) | 🔜 Planned |
 | 5 | End-to-End Analytics Project | Advanced | SQL + Python + BI dashboard | 🔜 Planned |
@@ -35,10 +35,12 @@ The scope of the planned projects may be adjusted as I learn.
 **Result:** 157 rows reduced to 151 clean rows, 6 exact duplicates removed, 14 rows flagged for review.
 **Skills:** data quality diagnosis, Excel formulas and tables, documentation, validation mindset.
 
-#### 2. Sales Analysis and Dashboard in Excel — 🔜 Planned
+#### 2. Sales Analysis and Dashboard in Excel — ✅ Done
 **Scenario:** management wants to understand how the business is performing using the clean sales base from Project 1.
-**What will be done:** define the key metrics (total revenue, units, average ticket), summarize sales by month, product, category, branch and seller with PivotTables, build charts, and assemble a one-page dashboard with filters.
-**Skills:** PivotTables, calculated fields, charts, slicers, turning a question into a metric, communicating results.
+**What was done:** wrote the treatment rules before building anything (rows without quantity or price, the repeated ID, empty branch or seller, undated sales), defined the key metrics (total revenue, units, number of sales, average ticket), summarized sales by month, product, category, branch and seller with PivotTables, built five PivotCharts, and assembled a one-page dashboard with KPI cards, slicers and a data-quality note.
+**Key principle:** every number on the dashboard traces back to a rule, and what is left out of the totals is reported instead of hidden.
+**Result:** $18,987,900 in revenue, 421 units, 144 sales and an average ticket of $131,860. The 7 rows left out of the totals are reported on the dashboard itself.
+**Skills:** PivotTables and PivotCharts, slicers connected to several tables, `GETPIVOTDATA`, calculated columns, turning a question into a metric, communicating results.
 
 #### 3. Sales Analysis with SQL — 🔜 Planned
 **Scenario:** the sales data now lives in a database, and the team needs answers to business questions through queries.
@@ -67,13 +69,16 @@ The scope of the planned projects may be adjusted as I learn.
 ### Repository structure
 
 ```
-Projects---Data-Analysist/
+Data-analytics-Portfolio/
 ├── README.md                    ← this file
 ├── 01-excel-data-cleaning/      ← Project 1 (done)
 │   ├── README.md
 │   ├── data/
 │   └── img/
-├── 02-excel-analysis-dashboard/ ← planned
+├── 02-excel-analysis-dashboard/ ← Project 2 (done)
+│   ├── README.md
+│   ├── data/
+│   └── img/
 ├── 03-sql-sales-analysis/       ← planned
 ├── 04-python-eda/               ← planned
 └── 05-end-to-end-analytics/     ← planned
@@ -98,7 +103,7 @@ Los proyectos se apoyan entre sí. El Proyecto 1 prepara un conjunto de datos co
 | # | Proyecto | Nivel | Herramientas principales | Estado |
 |---|---|---|---|---|
 | 1 | [Limpieza de datos de ventas en Excel](01-excel-data-cleaning/) | Principiante | Excel | ✅ Terminado |
-| 2 | Análisis de ventas y dashboard en Excel | Principiante–Intermedio | Excel (tablas dinámicas, gráficos) | 🔜 Planificado |
+| 2 | [Análisis de ventas y dashboard en Excel](02-excel-analysis-dashboard/) | Principiante–Intermedio | Excel (tablas dinámicas, gráficos, segmentaciones) | ✅ Terminado |
 | 3 | Análisis de ventas con SQL | Intermedio | SQL | 🔜 Planificado |
 | 4 | Análisis exploratorio de datos con Python | Intermedio–Avanzado | Python (pandas, visualización) | 🔜 Planificado |
 | 5 | Proyecto de analítica de punta a punta | Avanzado | SQL + Python + dashboard de BI | 🔜 Planificado |
@@ -114,10 +119,12 @@ El alcance de los proyectos planificados puede ajustarse a medida que aprenda.
 **Resultado:** de 157 filas se pasó a 151 filas limpias, con 6 duplicados exactos eliminados y 14 filas marcadas para revisión.
 **Habilidades:** diagnóstico de calidad de datos, fórmulas y tablas de Excel, documentación, mentalidad de validación.
 
-#### 2. Análisis de ventas y dashboard en Excel — 🔜 Planificado
+#### 2. Análisis de ventas y dashboard en Excel — ✅ Terminado
 **Escenario:** la dirección quiere entender cómo le va al negocio, usando la base de ventas limpia del Proyecto 1.
-**Qué se hará:** definir las métricas clave (facturación total, unidades, ticket promedio), resumir las ventas por mes, producto, categoría, sucursal y vendedor con tablas dinámicas, armar gráficos y construir un dashboard de una página con filtros.
-**Habilidades:** tablas dinámicas, campos calculados, gráficos, segmentaciones, traducir una pregunta a una métrica, comunicar resultados.
+**Qué se hizo:** se escribieron las reglas de tratamiento antes de construir nada (filas sin cantidad o precio, el ID repetido, sucursal o vendedor vacíos, ventas sin fecha), se definieron las métricas clave (facturación total, unidades, cantidad de ventas, ticket promedio), se resumieron las ventas por mes, producto, categoría, sucursal y vendedor con tablas dinámicas, se armaron cinco gráficos dinámicos y se construyó un dashboard de una página con tarjetas, segmentaciones y una nota de calidad de datos.
+**Principio clave:** cada número del dashboard se rastrea hasta una regla, y lo que queda fuera de los totales se informa en lugar de esconderse.
+**Resultado:** $18.987.900 de facturación, 421 unidades, 144 ventas y un ticket promedio de $131.860. Las 7 filas que quedan fuera de los totales se informan en el propio dashboard.
+**Habilidades:** tablas y gráficos dinámicos, segmentaciones conectadas a varias tablas, `OBTENERDATOSDINAMICOS`, columnas calculadas, traducir una pregunta a una métrica, comunicar resultados.
 
 #### 3. Análisis de ventas con SQL — 🔜 Planificado
 **Escenario:** los datos de ventas ahora están en una base de datos, y el equipo necesita responder preguntas de negocio mediante consultas.
@@ -146,13 +153,16 @@ El alcance de los proyectos planificados puede ajustarse a medida que aprenda.
 ### Estructura del repositorio
 
 ```
-Projects---Data-Analysist/
+Data-analytics-Portfolio/
 ├── README.md                    ← este archivo
 ├── 01-excel-data-cleaning/      ← Proyecto 1 (terminado)
 │   ├── README.md
 │   ├── data/
 │   └── img/
-├── 02-excel-analysis-dashboard/ ← planificado
+├── 02-excel-analysis-dashboard/ ← Proyecto 2 (terminado)
+│   ├── README.md
+│   ├── data/
+│   └── img/
 ├── 03-sql-sales-analysis/       ← planificado
 ├── 04-python-eda/               ← planificado
 └── 05-end-to-end-analytics/     ← planificado
