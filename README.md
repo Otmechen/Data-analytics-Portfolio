@@ -20,7 +20,7 @@ The projects build on each other. Project 1 prepares a reliable dataset, and the
 |---|---|---|---|---|
 | 1 | [Sales Data Cleaning in Excel](01-excel-data-cleaning/) | Beginner | Excel | ✅ Done |
 | 2 | [Sales Analysis and Dashboard in Excel](02-excel-analysis-dashboard/) | Beginner–Intermediate | Excel (PivotTables, charts, slicers) | ✅ Done |
-| 3 | Sales Analysis with SQL | Intermediate | SQL | 🔜 Planned |
+| 3 | [Sales Analysis with SQL](03-sql-sales-analysis/) | Intermediate | SQL (SQLite) | ✅ Done |
 | 4 | Exploratory Data Analysis with Python | Intermediate–Advanced | Python (pandas, visualization) | 🔜 Planned |
 | 5 | End-to-End Analytics Project | Advanced | SQL + Python + BI dashboard | 🔜 Planned |
 
@@ -42,10 +42,12 @@ The scope of the planned projects may be adjusted as I learn.
 **Result:** $18,987,900 in revenue, 421 units, 144 sales and an average ticket of $131,860. The 7 rows left out of the totals are reported on the dashboard itself.
 **Skills:** PivotTables and PivotCharts, slicers connected to several tables, `GETPIVOTDATA`, calculated columns, turning a question into a metric, communicating results.
 
-#### 3. Sales Analysis with SQL — 🔜 Planned
+#### 3. Sales Analysis with SQL — ✅ Done
 **Scenario:** the sales data now lives in a database, and the team needs answers to business questions through queries.
-**What will be done:** load the data into a relational database, split it into related tables (sales, products, branches, sellers), and answer business questions with queries.
-**Skills:** `SELECT`, filtering, `GROUP BY`, `JOIN`, subqueries, window functions, data modeling basics.
+**What was done:** designed a relational model of five tables (categories, products, branches, sellers, sales) with primary and foreign keys, loaded the clean base from Project 1 keeping every row and marking the problem ones with a quality status, converted dates and blanks during the load, and answered eight business questions with queries that go from simple filters to `LEFT JOIN`, subqueries, a CTE and window functions.
+**Key principle:** load every row and mark the problem ones instead of deleting them, so the rules stay visible in the queries.
+**Result:** the same 144 sales, 421 units and $18,987,900 in revenue as the Excel dashboard, reconciled one by one. The 7 rows left out of the totals stay in the database with their status.
+**Skills:** relational modelling, `JOIN` and `LEFT JOIN`, `GROUP BY`, subqueries, CTEs, window functions, validating a result against a control value.
 
 #### 4. Exploratory Data Analysis with Python — 🔜 Planned
 **Scenario:** a larger and messier dataset needs to be cleaned, explored and understood programmatically.
@@ -79,7 +81,12 @@ Data-analytics-Portfolio/
 │   ├── README.md
 │   ├── data/
 │   └── img/
-├── 03-sql-sales-analysis/       ← planned
+├── 03-sql-sales-analysis/       ← Project 3 (done)
+│   ├── README.md
+│   ├── ventas.db
+│   ├── data/
+│   ├── sql/
+│   └── img/
 ├── 04-python-eda/               ← planned
 └── 05-end-to-end-analytics/     ← planned
 ```
@@ -104,7 +111,7 @@ Los proyectos se apoyan entre sí. El Proyecto 1 prepara un conjunto de datos co
 |---|---|---|---|---|
 | 1 | [Limpieza de datos de ventas en Excel](01-excel-data-cleaning/) | Principiante | Excel | ✅ Terminado |
 | 2 | [Análisis de ventas y dashboard en Excel](02-excel-analysis-dashboard/) | Principiante–Intermedio | Excel (tablas dinámicas, gráficos, segmentaciones) | ✅ Terminado |
-| 3 | Análisis de ventas con SQL | Intermedio | SQL | 🔜 Planificado |
+| 3 | [Análisis de ventas con SQL](03-sql-sales-analysis/) | Intermedio | SQL (SQLite) | ✅ Terminado |
 | 4 | Análisis exploratorio de datos con Python | Intermedio–Avanzado | Python (pandas, visualización) | 🔜 Planificado |
 | 5 | Proyecto de analítica de punta a punta | Avanzado | SQL + Python + dashboard de BI | 🔜 Planificado |
 
@@ -126,10 +133,12 @@ El alcance de los proyectos planificados puede ajustarse a medida que aprenda.
 **Resultado:** $18.987.900 de facturación, 421 unidades, 144 ventas y un ticket promedio de $131.860. Las 7 filas que quedan fuera de los totales se informan en el propio dashboard.
 **Habilidades:** tablas y gráficos dinámicos, segmentaciones conectadas a varias tablas, `OBTENERDATOSDINAMICOS`, columnas calculadas, traducir una pregunta a una métrica, comunicar resultados.
 
-#### 3. Análisis de ventas con SQL — 🔜 Planificado
+#### 3. Análisis de ventas con SQL — ✅ Terminado
 **Escenario:** los datos de ventas ahora están en una base de datos, y el equipo necesita responder preguntas de negocio mediante consultas.
-**Qué se hará:** cargar los datos en una base relacional, separarlos en tablas relacionadas (ventas, productos, sucursales, vendedores) y responder preguntas de negocio con consultas.
-**Habilidades:** `SELECT`, filtros, `GROUP BY`, `JOIN`, subconsultas, funciones de ventana, nociones de modelado de datos.
+**Qué se hizo:** se diseñó un modelo relacional de cinco tablas (categorías, productos, sucursales, vendedores y ventas) con claves primarias y foráneas, se cargó la base limpia del Proyecto 1 conservando todas las filas y marcando las problemáticas con un estado de calidad, se convirtieron las fechas y los vacíos durante la carga y se respondieron ocho preguntas de negocio con consultas que van desde filtros simples hasta `LEFT JOIN`, subconsultas, una CTE y funciones de ventana.
+**Principio clave:** cargar todas las filas y marcar las problemáticas en lugar de borrarlas, para que las reglas queden visibles en las consultas.
+**Resultado:** las mismas 144 ventas, 421 unidades y $18.987.900 de facturación que el dashboard de Excel, conciliadas una por una. Las 7 filas que quedan fuera de los totales se conservan en la base con su estado.
+**Habilidades:** modelado relacional, `JOIN` y `LEFT JOIN`, `GROUP BY`, subconsultas, CTE, funciones de ventana, validar un resultado contra un valor de control.
 
 #### 4. Análisis exploratorio de datos con Python — 🔜 Planificado
 **Escenario:** un conjunto de datos más grande y más desordenado debe limpiarse, explorarse y entenderse de forma programática.
@@ -163,7 +172,12 @@ Data-analytics-Portfolio/
 │   ├── README.md
 │   ├── data/
 │   └── img/
-├── 03-sql-sales-analysis/       ← planificado
+├── 03-sql-sales-analysis/       ← Proyecto 3 (terminado)
+│   ├── README.md
+│   ├── ventas.db
+│   ├── data/
+│   ├── sql/
+│   └── img/
 ├── 04-python-eda/               ← planificado
 └── 05-end-to-end-analytics/     ← planificado
 ```
